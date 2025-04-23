@@ -10,7 +10,7 @@
 	<parent>
 		<groupId>org.codeturnery</groupId>
 		<artifactId>common-java-project-pom</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.4</version>
 	</parent>
 
 	<dependencies>
@@ -31,6 +31,9 @@
 				<extensions>true</extensions>
 				<configuration>
 					<instructions>
+						<!-- <Private-Package></Private-Package> -->
+						<!-- <Import-Package></Import-Package> -->
+						<!-- <Include-Resource>{maven-resources}, {maven-dependencies}</Include-Resource> -->
 						<Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
 						<Bundle-Name>${project.name}</Bundle-Name>
 						<Bundle-Version>${project.version}</Bundle-Version>
